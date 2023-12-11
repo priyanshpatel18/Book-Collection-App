@@ -9,7 +9,7 @@ dotenv.config();
 // Middlewares
 app.use(
   cors({
-    origin: "https://book-collection-app-azure.vercel.app",
+    origin: "https://book-collection-app-seven.vercel.app",
     credentials: true,
     methods: ["POST", "GET", "PUT", "DELETE"],
   })
